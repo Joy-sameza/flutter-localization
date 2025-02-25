@@ -1,0 +1,19 @@
+{
+    "@@locale": "fr",
+    "helloWorld": "Bonjour le monde!",
+    "welcome": "Bienvenue {username}",
+    "itemCount": "{count, plural, =0{Aucun élément} =1{1 élément} other{{count} éléments}}",
+    "pageTitle": "Démo de Localisation Flutter",
+    "settings": "Paramètres",
+    "language": "Langue",
+    "theme": "Thème",
+    "darkMode": "Mode Sombre",
+    "lightMode": "Mode Clair",
+    "remainingMessages": "{count, plural, =0{Aucun message} =1{Un message} other{{count} messages}}",
+    "lastUpdated": "Dernière mise à jour: {date}",
+    "meetingTime": "Heure de réunion: {time}",
+    "shortDate": "Date: {date}",
+    "detailedNotification": "{username} a {count, plural, =0{aucune nouvelle notification} one{une nouvelle notification de {sender}} other{{count} nouvelles notifications de {sender}}}",
+    "contextMessage": "{context, select, admin{Vue admin : Accès autorisé} user{Vue utilisateur : Accès limité} guest{Vue invité : Veuillez vous connecter} other{État d'accès inconnu}}",
+    "profileCompletion": "{gender, select, male{Il a complété son profil} female{Elle a complété son profil} other{Ils ont complété leur profil}}"
+}

@@ -1,0 +1,19 @@
+{
+    "@@locale": "ar",
+    "helloWorld": "مرحبا بالعالم!",
+    "welcome": "مرحبا {username}",
+    "itemCount": "{count, plural, =0{لا توجد عناصر} =1{عنصر واحد} other{{count} عناصر}}",
+    "pageTitle": "عرض توضيحي لتوطين Flutter",
+    "settings": "الإعدادات",
+    "language": "اللغة",
+    "theme": "السمة",
+    "darkMode": "الوضع الداكن",
+    "lightMode": "الوضع الفاتح",
+    "remainingMessages": "{count, plural, =0{لا توجد رسائل} =1{رسالة واحدة} other{{count} رسائل}}",
+    "lastUpdated": "آخر تحديث: {date}",
+    "meetingTime": "وقت الاجتماع: {time}",
+    "shortDate": "التاريخ: {date}",
+    "detailedNotification": "{username} لديه {count, plural, =0{لا توجد إشعارات جديدة} one{إشعار جديد من {sender}} other{{count} إشعارات جديدة من {sender}}}",
+    "contextMessage": "{context, select, admin{عرض المسؤول: الوصول مسموح} user{عرض المستخدم: الوصول محدود} guest{عرض الضيف: يرجى تسجيل الدخول} other{حالة الوصول غير معروفة}}",
+    "profileCompletion": "{gender, select, male{لقد أكمل ملفه الشخصي} female{لقد أكملت ملفها الشخصي} other{لقد أكملوا ملفهم الشخصي}}"
+}

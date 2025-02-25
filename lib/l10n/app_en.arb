@@ -1,0 +1,124 @@
+{
+    "@@locale": "en",
+    "helloWorld": "Hello World!",
+    "@helloWorld": {
+        "description": "The conventional newborn programmer greeting"
+    },
+    "welcome": "Welcome {username}",
+    "@welcome": {
+        "description": "A welcome message",
+        "placeholders": {
+            "username": {
+                "type": "String",
+                "example": "John"
+            }
+        }
+    },
+    "itemCount": "{count, plural, =0{No items} =1{1 item} other{{count} items}}",
+    "@itemCount": {
+        "description": "A message showing the number of items",
+        "placeholders": {
+            "count": {
+                "type": "num",
+                "format": "compact"
+            }
+        }
+    },
+    "profileCompletion": "{gender, select, male{He has completed his profile} female{She has completed her profile} other{They have completed their profile}}",
+    "@profileCompletion": {
+        "description": "A message showing profile completion status based on gender",
+        "placeholders": {
+            "gender": {
+                "type": "String"
+            }
+        }
+    },
+    "pageTitle": "Flutter Localization Demo",
+    "@pageTitle": {
+        "description": "The title of the main page"
+    },
+    "settings": "Settings",
+    "@settings": {
+        "description": "Label for the settings menu"
+    },
+    "language": "Language",
+    "@language": {
+        "description": "Label for language selection"
+    },
+    "theme": "Theme",
+    "@theme": {
+        "description": "Label for theme selection"
+    },
+    "darkMode": "Dark Mode",
+    "@darkMode": {
+        "description": "Label for dark mode option"
+    },
+    "lightMode": "Light Mode",
+    "@lightMode": {
+        "description": "Label for light mode option"
+    },
+    "detailedNotification": "{username} has {count, plural, =0{no new notifications} one{one new notification from {sender}} other{{count} new notifications from {sender}}}",
+    "@detailedNotification": {
+        "description": "A detailed notification message with nested placeholder {sender} inside the plural clause",
+        "placeholders": {
+            "username": {
+                "type": "String"
+            },
+            "count": {
+                "type": "int"
+            },
+            "sender": {
+                "type": "String"
+            }
+        }
+    },
+    "remainingMessages": "{count, plural, =0{No messages} =1{One message} =2{Two messages} few{A few messages ({count})} many{Many messages ({count})} other{{count} messages}}",
+    "@remainingMessages": {
+        "description": "A message showing the number of remaining messages with complex plural rules",
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "format": "compact"
+            }
+        }
+    },
+    "contextMessage": "{context, select, admin{Admin view: Access granted} user{User view: Limited access} guest{Guest view: Please sign in} other{Access state unknown}}",
+    "@contextMessage": {
+        "description": "A context based message that varies depending on the user role or view",
+        "placeholders": {
+            "context": {
+                "type": "String"
+            }
+        }
+    },
+    "lastUpdated": "Last updated: {date}",
+    "@lastUpdated": {
+        "description": "A message showing when content was last updated",
+        "placeholders": {
+            "date": {
+                "type": "DateTime",
+                "format": "yMMMd"
+            }
+        }
+    },
+    "meetingTime": "Meeting time: {time}",
+    "@meetingTime": {
+        "description": "A message showing the time of a meeting",
+        "placeholders": {
+            "time": {
+                "type": "DateTime",
+                "format": "jm"
+            }
+        }
+    },
+    "shortDate": "Date: {date}",
+    "@shortDate": {
+        "description": "A message showing a short date format",
+        "placeholders": {
+            "date": {
+                "type": "DateTime",
+                "format": "yMd"
+            }
+        }
+    }
+}
