@@ -9,7 +9,7 @@ Follow these steps to set up and launch this app on the web:
 1. **Prerequisites**
    - **Flutter Installation:** Ensure you have Flutter installed on your system. For installation instructions, visit the [Flutter Get Started Guide](https://flutter.dev/docs/get-started/install).
    - **Enable Web Support:** Verify that Flutter web support is enabled by running:
-     ```
+     ```bash
      flutter config --enable-web
      ```
    - **Check Environment:** Run `flutter doctor` to ensure your environment is set up correctly.
@@ -20,24 +20,24 @@ Follow these steps to set up and launch this app on the web:
      cd ./flutter-localization
      ```
    - **Install Dependencies:** Fetch all required packages by running:
-     ```
+     ```bash
      flutter pub get
      ```
 
 3. **Localization Generation**
    - This project uses Flutter's localization features. Ensure that the localization files are generated:
-     ```
+     ```bash
      flutter gen-l10n
      ```
    - The ARB files are located in the [lib/l10n](lib/l10n) directory.
 
 4. **Launching on the Web**
    - **Run in Chrome:** To launch the app in a web browser (Chrome, for example), run:
-     ```
+     ```bash
      flutter run -d chrome
      ```
    - **Build for Production:** Alternatively, create a web release build by running:
-     ```
+     ```bash
      flutter build web
      ```
    - The generated build will be available in the `build/web` directory. You can serve this directory using any static server.
